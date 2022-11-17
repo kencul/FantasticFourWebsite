@@ -1,13 +1,41 @@
 body {
-    background-color: purple;
+    /* RGBA - Last number is for transparency, 0-1 */
+    background-color: rgb(128, 0, 128, 0.5);
 }
 
 h1{
-    color: white;
+    color: whitesmoke;
     text-align: center;
+
+    /* Borders */
+    background-color: #6a5acd;
+    /* can do multiple edits in one line */
+    border: 2px dotted tomato;
+}
+
+h2{
+    font-family:'Trebuchet MS';
+    color: rgb(218, 188, 218);
+    font-style: italic bold;
+    /* Separate border edits */
+    border-top-style: groove;
+    border-bottom-style: solid;
+    border-right-style: double;
+    border-left-style: inset;
+    border-width: medium;
+    border-color: blue;
+
 }
 
 p{
+    /* margins (top right bottom left) (not relavent?)*/
+    margin: 25px 500px 200px 100px;
+
+    /* padding (top right bottom left)*/
+    padding: 25px 500px 200px 200px;
+
+    /*  */
+
     font-family: verdana;
     font-size: 20px;
 }
