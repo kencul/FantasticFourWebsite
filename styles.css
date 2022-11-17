@@ -27,6 +27,14 @@ h2{
 
 }
 
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color:black
+    
+}
+
 p{
     /* margins (top right bottom left) (not relavent?)*/
     margin: 25px 500px 200px 100px;
