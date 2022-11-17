@@ -18,12 +18,6 @@ h2{
     color: rgb(218, 188, 218);
     font-style: italic bold;
     /* Separate border edits */
-    border-top-style: groove;
-    border-bottom-style: solid;
-    border-right-style: double;
-    border-left-style: inset;
-    border-width: medium;
-    border-color: blue;
 }
 
 h3{
@@ -46,6 +40,7 @@ h5{
 p{
     font-family: verdana;
     font-size: 20px;
+    margin: 0px;
 }
 
 div.columns{
