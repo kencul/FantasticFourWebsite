@@ -44,7 +44,5 @@ p{
 }
 
 div.columns{
-    display:inline;
     column-count: 3;
-    margin:0em
 }
