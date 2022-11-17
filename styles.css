@@ -40,3 +40,7 @@ p{
     font-family: verdana;
     font-size: 20px;
 }
+
+div.columns{
+    column-count: 3;
+}
